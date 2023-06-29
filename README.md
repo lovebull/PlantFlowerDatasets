@@ -24,6 +24,22 @@
 
 ![](pic20230621195113.png)
 
+------
+
+## RWKV-LM-LoRA[World模型]训练文件
+
+World模型LoRA微调后进行的推理，查看微调后的模型是否正常
+
+文件夹里面内容直接粘贴到目标文件夹
+
+```
+执行 RWKV_JIT_ON=1 python chat_word.py
+```
+
+
+
+
+
 
 
 ## 引用
