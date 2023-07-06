@@ -13,6 +13,8 @@
 2. ~~PlantFlower-20230621.jsonl数据只归纳了5010条数据，后续时间会陆续增加数据集~~
 3. PlantFlower-20230621.jsonl数据归纳了5100条数据[增加了90条]，后续时间会陆续增加数据集
 4. 增加了数据集binidx文件，可用于直接训练，会更有利于训练
+5. 新增中国植物志数据集 共有30993条数据 ，文件大小62MB
+6. 新增植物花卉+中国植物志合订本数据集 共有数据36033条，文件大小 70MB
 
 
 
@@ -23,20 +25,6 @@
 1. 展示部门数据
 
 ![](pic20230621195113.png)
-
-------
-
-## RWKV-LM-LoRA[World模型]训练文件
-
-World模型LoRA微调后进行的推理，查看微调后的模型是否正常
-
-文件夹里面内容直接粘贴到目标文件夹
-
-```
-执行 RWKV_JIT_ON=1 python chat_word.py
-```
-
-
 
 ------
 
@@ -77,6 +65,20 @@ plantflower_cnflora_data_text_document.bin
 plantflower_cnflora_data_text_document.idx
 
 
+
+------
+
+
+
+## RWKV-LM-LoRA[World模型]训练文件
+
+World模型LoRA微调后进行的推理，查看微调后的模型是否正常
+
+文件夹里面内容直接粘贴到目标文件夹
+
+```
+执行 RWKV_JIT_ON=1 python chat_word.py
+```
 
 
 
