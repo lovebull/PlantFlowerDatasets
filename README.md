@@ -66,6 +66,22 @@ World模型LoRA微调后进行的推理，查看微调后的模型是否正常
 
 
 
+------
+
+# 植物盆栽花卉+中国植物志 合订本数据集
+
+ 共有数据36033条数据，现已转换为bin,idx文件 70MB
+
+plantflower_cnflora_data_text_document.bin
+
+plantflower_cnflora_data_text_document.idx
+
+
+
+
+
+
+
 ## 引用
 
 如果你觉得我们的工作有帮助的话，请考虑引用下列论文
